@@ -112,11 +112,6 @@ class BorderPainter extends CustomPainter {
   }
 }
 
-class BarReaderSize {
-  static double width = 200;
-  static double height = 200;
-}
-
 class OverlayWithHolePainter extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
